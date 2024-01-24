@@ -65,6 +65,7 @@ class GameScreen():
             return
         
         elif e.key == pygame.K_RETURN:
+            if len(self.inputText) == 0: return
             inputInt = int(self.inputText)
             isCorrect = self.gameLogic.checkAnswer(inputInt)
 
