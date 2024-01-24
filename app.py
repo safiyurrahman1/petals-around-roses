@@ -2,6 +2,7 @@ import pygame
 import random
 
 pygame.init()
+pygame.display.set_caption("Petals Around the Rose")
 screen = pygame.display.set_mode((800,600))
 
 font = pygame.font.SysFont(None, 30)
